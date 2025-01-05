@@ -1,0 +1,41 @@
+body{
+    background-image: url("360_F_420867335_srDH3p52ShctnCgpD6XPbdYUR1T0TB9B.jpg");
+   background-size: cover;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+
+    background-position: center;
+}
+h1{
+color: goldenrod;
+}
+#round{
+    font-style: italic;
+}
+#start-game{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    font-size: 20px;
+    border: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+#start-game:hover {
+    background-color: gold; /* No visual change on hover */
+  }
+
+  /* Inward effect on click */
+  #start-game:active {
+    transform: scale(0.95); /* Slight inward shrink */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); /* Shadow compresses */
+  }
+ 
